@@ -1,1 +1,0 @@
-import{d as o,k as n,o as t,ag as a,A as s}from"./index-DVPTQ2nu.js";const p=o({__name:"[...all]",setup(c){const e=n();return t(()=>{console.log(e.name)}),(l,r)=>(s(),a("p",null,"沒有找到頁面"))}});export{p as default};
