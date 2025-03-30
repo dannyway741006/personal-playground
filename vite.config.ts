@@ -45,22 +45,22 @@ export default defineConfig(({ mode }) => ({
       vueTemplate: true,
     }),
     Components(),
-    Pages({
-      dirs: "src/pages",
-      exclude: ["**/components/*.vue"],
-      extendRoute(route, parent) {
-        if (route.path === "/")
-          return {
-            ...route,
-            // redirect: "login",
-          }
-      },
-      importMode: "async",
-    }),
-    Layouts({
-      layoutsDirs: "src/layouts",
-      defaultLayout: "deshboard",
-    }),
+    // Pages({
+    //   dirs: "src/pages",
+    //   exclude: ["**/components/*.vue"],
+    //   extendRoute(route, parent) {
+    //     if (route.path === "/")
+    //       return {
+    //         ...route,
+    //         // redirect: "login",
+    //       }
+    //   },
+    //   importMode: "async",
+    // }),
+    // Layouts({
+    //   layoutsDirs: "src/layouts",
+    //   defaultLayout: "deshboard",
+    // }),
 
     vue(),
     Vuetify({
