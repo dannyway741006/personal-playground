@@ -70,5 +70,5 @@ export default defineConfig(({ mode }) => ({
       },
     }),
   ],
-  base: "/personal-playground/", // 必須與你的倉庫名稱一致
+  base: "./", // 必須與你的倉庫名稱一致
 }))
