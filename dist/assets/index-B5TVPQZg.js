@@ -1,0 +1,1 @@
+import{d as n,k as t,o as s}from"./index-7SLAyUKC.js";const c=n({__name:"index",setup(u){const e=t();return s(()=>{console.log(e.name)}),(a,r)=>null}}),o={};typeof o=="function"&&o(c);export{c as default};
