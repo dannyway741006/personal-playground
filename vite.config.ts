@@ -1,9 +1,9 @@
 import { defineConfig } from "vite"
 import vue from "@vitejs/plugin-vue"
-import Pages from "vite-plugin-pages"
+// import Pages from "vite-plugin-pages"
 
-import AutoImport from "unplugin-auto-import/vite"
-import Components from "unplugin-vue-components/vite"
+// import AutoImport from "unplugin-auto-import/vite"
+// import Components from "unplugin-vue-components/vite"
 import Layouts from "vite-plugin-vue-layouts"
 import Vuetify from "vite-plugin-vuetify"
 import glsl from "vite-plugin-glsl"
@@ -36,15 +36,15 @@ export default defineConfig(({ mode }) => ({
   },
   plugins: [
     glsl(),
-    AutoImport({
-      imports: ["vue", "vue-router"],
-      dts: true,
-      eslintrc: {
-        enabled: true,
-      },
-      vueTemplate: true,
-    }),
-    Components(),
+    // AutoImport({
+    //   imports: ["vue", "vue-router"],
+    //   dts: true,
+    //   eslintrc: {
+    //     enabled: true,
+    //   },
+    //   vueTemplate: true,
+    // }),
+    // Components(),
     // Pages({
     //   dirs: "src/pages",
     //   exclude: ["**/components/*.vue"],
