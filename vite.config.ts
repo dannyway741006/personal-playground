@@ -61,6 +61,7 @@ export default defineConfig(({ mode }) => ({
       layoutsDirs: "src/layouts",
       defaultLayout: "deshboard",
     }),
+
     vue(),
     Vuetify({
       autoImport: true,
@@ -69,4 +70,5 @@ export default defineConfig(({ mode }) => ({
       },
     }),
   ],
+  base: "/personal-playground/", // 必須與你的倉庫名稱一致
 }))
