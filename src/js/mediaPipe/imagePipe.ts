@@ -1,3 +1,0 @@
-const myMedia = {}
-
-export { myMedia }
