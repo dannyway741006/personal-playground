@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => ({
   },
   build: {
     target: "es2022", // 或 'esnext'
-    outDir: "dist",
+    outDir: "root",
     assetsDir: "assets",
     terserOptions: {
       compress: {
