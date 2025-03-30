@@ -1,0 +1,43 @@
+@import ./_mixin
+@import ./_variables
+@import ./_breakPoints
+@import ./_vueTransition
+ 
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+
+#app
+  width: 100%
+  height: 100%
+  margin: 0
+  padding: 0
+.reserve-icon-group > #easychat-unread-badge
+  position: absolute
+  right: -12px
+  bottom: 25px
+#inspector-host,#scene-explorer-host
+  position: absolute !important
+  z-index: 9999999999 !important
+//文字reset
+h1, h2, h3, h4, h5, p, ul
+  margin: 0
+  padding: 0
+.cursor
+  cursor: pointer
+.c_cursor_move
+  cursor: move
+.mystyle
+  display: none !important
+//消失
+.m_display
+  display: none
+//浮動置中
+.m_posCenter
+  position: absolute
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%)
+
+

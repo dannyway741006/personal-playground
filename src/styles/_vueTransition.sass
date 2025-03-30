@@ -1,0 +1,94 @@
+//
+// 淡入淡出
+.v-leave-active,
+.v-enter-active
+    transition: all 0.5s
+.v-leave-from,
+.v-enter-to
+    opacity: 1
+.v-leave-to,
+.v-enter-from
+    opacity: 0
+// 向上收合
+.up-leave-active,
+.up-enter-active
+    transition: all 0.5s
+.up-leave-from,
+.up-enter-to
+    opacity: 1
+    transform: translateY(0%)
+.up-leave-to,
+.up-enter-from
+    opacity: 0
+    transform: translateY(-110%)
+// 向下收合
+.down-leave-active,
+.down-enter-active
+    transition: all 0.5s
+.down-leave-from,
+.down-enter-to
+    opacity: 1
+    transform: translateY(0%)
+.down-leave-to,
+.down-enter-from
+    opacity: 0
+    transform: translateY(110%)
+//Room3D 向下收合
+.downRoom-leave-active,
+.downRoom-enter-active
+    transition: all 0.5s
+    display: block !important
+.downRoom-leave-from,
+.downRoom-enter-to
+    opacity: 1
+    display: block !important
+    transform: translateY(0%)
+.downRoom-leave-to,
+.downRoom-enter-from
+    opacity: 1
+    display: block !important
+    transform: translateY(64px)
+// 向左收合
+.left-leave-active,
+.left-enter-active
+    transition: all 0.5s
+.left-leave-from,
+.left-enter-to
+    opacity: 1
+    transform: translateX(0%)
+.left-leave-to,
+.left-enter-from
+    opacity: 0
+    transform: translateX(-110%)
+// 向右收合
+.right-leave-active,
+.right-enter-active
+    transition: all 0.5s
+.right-leave-from,
+.right-enter-to
+    opacity: 1
+    transform: translateX(0%)
+.right-leave-to,
+.right-enter-from
+    opacity: 0
+    transform: translateX(110%)
+// height
+.height-leave-active,
+.height-enter-active
+    transition: all 0.3s
+.height-leave-from,
+.height-enter-to
+    opacity: 1
+    transform: scaleY()(100%)
+.height-leave-to,
+.height-enter-from
+    opacity: 0
+    transform: scaleY(0%)
+
+
+.fade-down-enter-active,
+.fade-down-leave-active
+    transition: all 0.3s
+.fade-down-enter-from, .fade-down-leave-to
+    opacity: 0
+    transform: translateY(100%)

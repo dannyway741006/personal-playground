@@ -1,0 +1,3 @@
+const myMedia = {}
+
+export { myMedia }
